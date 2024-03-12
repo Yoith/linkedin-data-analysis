@@ -1,2 +1,4 @@
 .env
 notebooks/soup_list.pkl
+**/*.ipynb_checkpoints
+*/**.ipynb_checkpoints
