@@ -1,5 +1,4 @@
-Data Analyst,Data Analyst,Data Analyst,Data Engineer,Data Engineer,Data Engineer,Data Scientist,Data Scientist,Data Scientist,tipo_habilidad
-Intermedio,Junior,Senior,Intermedio,Junior,Senior,Intermedio,Junior,Senior,
+da_intermedio,da_junior,da_senior,de_intermedio,de_junior,de_senior,"('Data Scientist', 'Intermedio')","('Data Scientist', 'Junior')","('Data Scientist', 'Senior')","('tipo_habilidad', '')"
 44,26,21,38,38,2,45,21,23,Hard Skill
 52,72,7,14,17,2,18,10,14,Soft Skill
 26,40,4,37,24,11,4,1,1,Soft Skill
