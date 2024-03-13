@@ -10,7 +10,7 @@ FROM
 GROUP BY 
     tipo_habilidad;
 
--- 3. Total de apariciones de cada habilidad para cada tipo de empleo
+-- 2. Total de apariciones de cada habilidad para cada tipo de empleo
 
 SELECT 
     tipo_habilidad,
@@ -28,7 +28,7 @@ FROM
 GROUP BY 
     tipo_habilidad;
     
--- 4.  Total de apariciones de cada habilidad para cada nivel de responsabilidad
+-- 3.  Total de apariciones de cada habilidad para cada nivel de responsabilidad
 
 SELECT 
     nombre_habilidad,
@@ -40,7 +40,7 @@ FROM
 GROUP BY 
     nombre_habilidad;
     
--- 5. habilidades más demandadas para cada tipo de empleo
+-- 4. Tipo de empleo más demandado para cada tipo de habilidad y número máximo de apariciones
 
 SELECT 
     tipo_habilidad,
@@ -55,7 +55,7 @@ FROM
 GROUP BY 
     tipo_habilidad;
     
--- 6. Habilidades más demandadas
+-- 5. Habilidades más demandadas
 
 SELECT 
     nombre_habilidad,
@@ -107,7 +107,7 @@ HAVING
     AND SUM(da_junior + de_junior + ds_junior) = 0 
     AND SUM(da_senior + de_senior + ds_senior) = 0;
     
--- 10. Habilidades menos comunes para cada tipo de empleo
+-- 10. Habilidades menos comunes para todos los tipos de empleo
 
 SELECT 
     tipo_habilidad,
