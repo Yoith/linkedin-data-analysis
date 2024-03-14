@@ -1,4 +1,4 @@
-# LinkedIn Job Offers Data Analysis Project
+# LinkedIn Job Offers Analysis
 
 ### Project Description
 
@@ -50,9 +50,5 @@ The analysis results have been visualized using Tableau, with an accessible pres
 - **Images**: Logos used for presentation and visualizations.
 - **Notebooks**: Jupyter Notebook files containing the code for data extraction and cleaning.
 - **README.md**: This file providing an overview of the project.
-
-### Using the Repository
-
-To use this repository, clone the repository and run the Jupyter notebook files in the specified order as mentioned above. Make sure to have all dependencies installed as specified in the sections of libraries used.
 
 Thank you for reviewing this project! If you have any questions or comments, feel free to contact me.
